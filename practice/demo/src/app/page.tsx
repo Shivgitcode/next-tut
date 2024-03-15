@@ -6,6 +6,7 @@ export default function Home() {
       Home
       <Link href="/docs">Docs page</Link>
       <Link href="/docs/feature1">features</Link>
+      <Link href="/product">Products</Link>
     </h1>
   );
 }
