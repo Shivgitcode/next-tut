@@ -24,6 +24,9 @@ export default function About() {
           docs
         </Link>
       </div>
+      <div>
+        <Link href="/">home</Link>
+      </div>
     </>
   );
 }
