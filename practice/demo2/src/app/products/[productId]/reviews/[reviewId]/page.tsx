@@ -6,7 +6,7 @@ interface ParamsProp {
 }
 
 export default function ReviewsDesc({ params }: ParamsProp) {
-  const randomNumber = Math.floor(Math.random() * 10);
+  const randomNumber = Math.floor(Math.random() * 3);
 
   if (randomNumber === 1) {
     throw new Error("this is app error");
